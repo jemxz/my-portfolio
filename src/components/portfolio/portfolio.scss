@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
   
 
   h1 {
@@ -14,6 +15,7 @@
     @include mobile{
       font-size: 20px;
       margin: 10px;
+      overflow: hidden;
     }
   }
 
@@ -27,6 +29,7 @@
       margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
+      overflow: hidden;
     }
   }
 
@@ -38,9 +41,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: hidden;
 
     @include mobile{
       width: 100%;
+      overflow: hidden;
     }
 
     .item {
@@ -52,6 +57,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
       color: white;
       position: relative;
       transition: all .5s ease;
@@ -60,6 +66,7 @@
       @include mobile{
         width: 130px;
         height: 100px;
+        overflow: hidden;
       }
 
       h3 {

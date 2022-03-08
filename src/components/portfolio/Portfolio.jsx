@@ -22,7 +22,7 @@ function Portfolio() {
         },
         {
             id: "design",
-            title: "Desiging"
+            title: "Designing"
         }
 
     ]
@@ -57,15 +57,19 @@ function Portfolio() {
                     active={selected === item.id} 
                     setSelected={setSelected}
                     id={item.id}
-                    />
+                    >
+                        <a href={item.link}></a>    
+                    </PortfolioList>
                 ))}
             </ul>
             <div className="container">
                { data.map((d) => (      
-                <div className="item">
-                    <img src={d.img} alt="" />
-                    <h3>{d.title}</h3>
-                </div>
+                    <a href={d.link}>
+                     <div className="item">
+                        <img src={d.img} alt="" />
+                        <h3>{d.title}</h3>
+                     </div>
+                    </a>
                 ))}
             </div>
         </div>
