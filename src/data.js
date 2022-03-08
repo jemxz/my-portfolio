@@ -16,7 +16,7 @@ export const featuredPortfolio = [
     {
       id: 3,
       title: "Animated website",
-      link: "https://vercel.com/jemxz/awra-technology/9QiADNKU9x9tnQaeRrZeY8V9NHux",
+      link: "https://awra-technology-ewbn32qvo-jemxz.vercel.app/",
       img:
         "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
     }
@@ -26,13 +26,13 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Hosting Service web Application",
-      link: "https://vercel.com/jemxz/hostingwebapp/9th1a1SfyEdB1ncd3DTURxLoaQLb",
+      link: "https://hostingwebapp-b38o181eh-jemxz.vercel.app/",
       img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
     },
     {
       id: 2,
       title: "To Do list",
-      link:"todo-app-n1vayeygn-jemxz.vercel.app",
+      link:"https://todo-app-psi-ochre.vercel.app/",
       img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
     },
     {
