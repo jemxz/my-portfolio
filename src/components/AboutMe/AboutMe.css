@@ -1,0 +1,56 @@
+.aboutme {
+    margin: 0;
+    color: #283440;
+	font-family: PT Serif, serif;
+	font-size: 18px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+    background-color: cornsilk;
+    overflow-y: hidden;
+}
+
+.texth2{
+    clear: right;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #283440;
+}
+.ph2{
+    margin-bottom: 1.5em;
+}
+textarea {
+	color: #283440;
+	font-family: PT Serif, serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+
+  .mastHeadIntro {
+      text-align: center;
+  }
+  .mastHeadHeading,
+  .mastHeadIntro {
+      text-align: center;
+      text-shadow: 2px 2px 0 rgba(191, 191, 191, 1);
+  }
+  .mastHead {
+      padding: 3rem 0;
+  }
+  
+  .mastHeadIntro {
+      margin-bottom: 0.1em;
+  }
+  
+  .mastHeadHeading {
+      margin-top: -0.2em;
+  }
+  
+  .introduction-section,
+  .location-section,
+  .questions-section {
+      max-width: 38rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+  }

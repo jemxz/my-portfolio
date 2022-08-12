@@ -7,6 +7,8 @@ import Works from './components/works/Works';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
 import './app.scss'
+import AboutMe from './components/AboutMe/AboutMe';
+
 
 
 

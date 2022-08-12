@@ -1,26 +1,37 @@
 import React from 'react'
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import emailjs from 'emailjs-com'
+import 'react-toastify/dist/ReactToastify.css';
 import "./contact.scss";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
+  const notify = () => toast("Thank you, I will contact you soon enough 🔜" );
 
-  const handleSubmit = (e) => {
+  function sendEmail(e) {
     e.preventDefault();
-    setMessage(true);
-  };
+    emailjs
+      .sendForm("service_giqw7dq","template_64uwtig",e.target,"_DEfk6PTmWr8MMlGw")
+      .then(res=>{
+        console.log(res);
+        
+      }).catch(err => {
+        console.log(err.message);
+      })
+  }
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact" >
       <div className="left">
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
-        <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+        <form onSubmit={sendEmail}>
+          <input name="email" type="text" placeholder="Email" id="mce-EMAIL" required />
+          <textarea name="text" placeholder="Message"></textarea>
+          <button type="submit" onClick={notify}> Send </button>
+          <ToastContainer />
         </form>
       </div>
     </div>

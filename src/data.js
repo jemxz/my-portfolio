@@ -1,25 +1,44 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media Scraper",
-      link: "https://github.com/jemxz/faceboook-scraper-backend",
+      title: "FaceBook Scraper",
+      link: "https://search-bqlmsbsgu-jemxz.vercel.app/",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.ibb.co/C6QCFhK/facebook-scraper.gif",
     },
     {
       id: 2,
-      title: "Movie Rental app",
-      link: "https://vidly-mgg96jjxb-jemxz.vercel.app/movies",
+      title: "Count Down App",
+      link: "https://enkustore.vercel.app/",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://i.ibb.co/19TFWdm/enkugifts-moded-img.png",
     },
     {
       id: 3,
       title: "Animated website",
       link: "https://awra-technology-ewbn32qvo-jemxz.vercel.app/",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    }
+        "https://i.ibb.co/SwK1dVt/awra-img.png",
+    },
+    {
+      id: 1,
+      title: "Web Hosting Service",
+      link: "https://hostingwebapp-b38o181eh-jemxz.vercel.app/",
+      img: "https://i.ibb.co/LQKCmfQ/cloud-hosting-img.jpg",
+    },
+    {
+      id: 2,
+      title: "To Do list",
+      link:"https://todo-app-psi-ochre.vercel.app/",
+      img: "https://i.ibb.co/BL3j1Z8/todo-img.png",
+    },
+    {
+      id: 1,
+      title: "UI Design for Enimar Education Platform",
+      link: "https://www.figma.com/proto/5mQw7gnu3HQqGppUoPyw7K/LMS-project?node-id=3%3A3&scaling=scale-down-width",
+      img:
+      "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+    },
   ];
   
   export const webPortfolio = [
