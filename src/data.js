@@ -15,10 +15,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Animated website",
-      link: "https://awra-technology-ewbn32qvo-jemxz.vercel.app/",
+      title: "Weather App",
+      link: "https://weather-app-git-master-jemxz.vercel.app/",
       img:
-        "https://i.ibb.co/SwK1dVt/awra-img.png",
+        "https://i.ibb.co/H79f40f/Weather-app.jpg",
     },
     {
       id: 1,
