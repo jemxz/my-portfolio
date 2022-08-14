@@ -9,7 +9,7 @@ import { init } from "ityped"
 class Intro extends Component {
     componentDidMount(){
         const myElement = document.querySelector('#myElement')
-        init(myElement, { showCursor: false, strings: [' A Web Developer', ' An Enthusiast Animator', ' And an Occasional Gamer' ] })
+        init(myElement, { showCursor: false, strings: [' A Web Developer', ' An Enthusiast Animator', ' An Occasional Gamer' ] })
       }
   showMsg = () => <p>
       Hello and thanks for visiting my profile. <br></br>
