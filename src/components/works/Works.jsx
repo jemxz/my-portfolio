@@ -11,7 +11,7 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Web Application",
       desc:
-        "I Build unique web application for my customers that enables them to grow there business. Web applications that are beautiful, responsive and scalable are what most customers want.",
+        "I Build unique web application for my customers that enables them to grow there business.",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
@@ -20,7 +20,7 @@ export default function Works() {
       icon: "./assets/globe.png",
       title: "UI/UX Design",
       desc:
-        "I Design custom UI and Ux for customers bringing customers intutive experiance",
+        "I Build my customers applications that enables them to automate there tasks saving them money and time.",
       img:
         "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
     },
@@ -29,7 +29,7 @@ export default function Works() {
       icon: "./assets/writing.png",
       title: "Content",
       desc:
-        "Create amazing and on brand content for customers that reperenst their company",
+        "I Create amazing and on brand content for customers that represent their company",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
